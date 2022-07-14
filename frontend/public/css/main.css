@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #46B241;
+    --second-color: #FFFFFF;
+    --third-color: #61CE70;
+    --fourth-color: #54595F;
+    --primary-font: "Comfortaa", sans serif;
+}
+
+.primary-bgcolor {
+    background: var(--primary-color);
+}
+
+.second-color {
+    color: var(--second-color);
+}
+
+.container-header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+.logo-header {
+    margin-left: 0.5rem;
+}
+
+.nav-item {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+a:hover{
+    color: var(--fouth-color) !important;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5.5rem;
+    font-family: var(--primary-font);
+}
+
+.titulo-principal {
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.introducao-principal {
+    font-size: 25px;
+    color: var(--primary-color);
+}
