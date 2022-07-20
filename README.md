@@ -1,4 +1,4 @@
-# Management (em construção 🚧)
+# Listto (em construção 🚧)
 
 ### Projeto para gestão de produtos 📋
 
