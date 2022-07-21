@@ -1,5 +1,5 @@
 {
-  "name": "management",
+  "name": "listto",
   "version": "1.0.0",
   "description": "Projeto para gestão de produtos",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leodoprado/Management.git"
+    "url": "git+https://github.com/leodoprado/Listto.git"
   },
   "author": "Leonardo do Prado",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leodoprado/Management/issues"
+    "url": "https://github.com/leodoprado/Listto/issues"
   },
-  "homepage": "https://github.com/leodoprado/Management#readme",
+  "homepage": "https://github.com/leodoprado/Listto#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
