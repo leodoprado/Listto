@@ -1,4 +1,4 @@
-# Listto (em construção 🚧)
+# Listto (em desenvolvimento 🚧)
 
 ### Projeto para gestão de produtos 📋
 
@@ -10,8 +10,8 @@
   * Node.js
 #
 **Home page:**
+![Captura Listto-inicio](https://user-images.githubusercontent.com/79430646/180789964-66e02e67-fe20-4dbf-83b6-15fb93d6915c.PNG)
 
-![home-page](https://user-images.githubusercontent.com/79430646/179767081-5a0239c8-1ca5-4704-8aa8-8aadfc863754.PNG)
 #
 
 **Dependências do projeto:**
