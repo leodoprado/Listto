@@ -25,4 +25,4 @@
   * Module-alias
   * Dotenv
   
-  ***Instale as dependências do projeto utilizando o comando: npm install***
+  ***Instale as dependências do projeto utilizando o comando: `npm install`***
