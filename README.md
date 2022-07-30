@@ -1,6 +1,6 @@
 # Listto (em desenvolvimento 🚧)
 
-### Projeto para gestão de produtos 📋
+### Projeto para `gestão` de produtos 📋
 
 **Tecnologias utilizadas no projeto:**
   * HTML
