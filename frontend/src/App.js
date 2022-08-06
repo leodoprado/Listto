@@ -1,10 +1,9 @@
 // import logo from './assets/logo-listto.png';
 import './App.css';
-import Header from './components/HeaderComponent'
 
 function App() {
   return (
-    <Header />
+    <h1>Iniciando o projeto</h1>
   );
 }
 
