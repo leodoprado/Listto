@@ -1,9 +1,10 @@
-// import logo from './assets/logo-listto.png';
 import './App.css';
 
 function App() {
   return (
-    <h1>Iniciando o projeto</h1>
+    <div className="App">
+      <h1>Initial Project</h1>
+    </div>
   );
 }
 

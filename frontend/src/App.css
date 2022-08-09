@@ -1,58 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
-
-:root {
-    --primary-color: #46B241;
-    --second-color: #FFFFFF;
-    --third-color: #61CE70;
-    --fourth-color: #54595F;
-    --primary-font: "Comfortaa", sans serif;
+.App {
+  text-align: center;
 }
 
-.primary-bgcolor {
-    background: var(--primary-color);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.second-color {
-    color: var(--second-color);
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.container-header {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--primary-font);
-    font-weight: bold;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.logo-header {
-    margin-left: 0.5rem;
+.App-link {
+  color: #61dafb;
 }
 
-.nav-item {
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
-a:hover{
-    color: var(--fouth-color) !important;
-} 
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7rem;
-    font-family: var(--primary-font);
-}
-
-.titulo-principal {
-    font-size: 80px;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.introducao-principal {
-    font-size: 25px;
-    color: var(--primary-color);
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
