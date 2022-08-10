@@ -10,7 +10,7 @@ export const ContainerHeader = styled.div`
 
     nav {
         display: flex;
-        margin-right: 30px;
+        margin-right: 100px;
     }
     
     a {
@@ -18,7 +18,7 @@ export const ContainerHeader = styled.div`
         text-decoration: none;
         display: flex;
         align-items: center;
-        font-weight: 600;
+        font-weight: 700;
         margin-right: 20px;
         margin-left: 20px;
     }
@@ -28,6 +28,6 @@ export const ContainerHeader = styled.div`
     }
 
     img {
-        margin-left: 30px;
+        margin-left: 110px;
     }
 `
