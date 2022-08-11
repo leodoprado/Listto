@@ -7,10 +7,10 @@ const HeaderComponent = () => {
     <ContainerHeader>
         <img src={LogoListto}/>
         <nav>
-            <a href="/">Inicío</a>
-            <a href="/informacoes">Informações</a>
-            <a href="/registrar">Registrar</a>
-            <a href="/entrar">Entrar</a>
+            <a href="/">Home</a>
+            <a href="/informacoes">Features</a>
+            <a href="/registrar">Contacts</a>
+            <a href="/entrar">Login</a>
         </nav>
     </ContainerHeader>
   )

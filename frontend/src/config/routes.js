@@ -9,7 +9,7 @@ export default function Router() {
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<HomePage />}></Route>
-                <Route exact path="/login" element={<LoginPage />}></Route>
+                <Route exact path="/informacoes" element={<LoginPage />}></Route>
             </Routes>
         </BrowserRouter>
     );

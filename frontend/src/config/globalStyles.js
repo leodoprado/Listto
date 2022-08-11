@@ -4,7 +4,7 @@ const globalStyle = createGlobalStyle`
     * {
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa', sans-serif;
+    box-shadow: 0;
     }
 `
 

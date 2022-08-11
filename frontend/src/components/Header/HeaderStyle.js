@@ -7,24 +7,31 @@ export const ContainerHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     background: #46B241;
+    border-bottom: 1px solid #000;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Figtree', sans-serif;
 
     nav {
         display: flex;
-        margin-right: 100px;
+        margin-right: 110px;
     }
     
     a {
-        color: #ffff;
+        color: #fff;
         text-decoration: none;
         display: flex;
         align-items: center;
         font-weight: 700;
-        margin-right: 20px;
         margin-left: 20px;
+        transition-duration: 0.3s;
     }
 
     a:hover {
         color: #DCDCDC;
+        box-shadow: 0 0 10px #46B241;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     img {
