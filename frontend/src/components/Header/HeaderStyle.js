@@ -7,10 +7,10 @@ export const ContainerHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     background: #46B241;
-    border-bottom: 1px solid #000;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Figtree', sans-serif;
+    box-shadow: 0px 0px 8px gray;
 
     nav {
         display: flex;

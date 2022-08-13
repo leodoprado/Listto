@@ -8,9 +8,9 @@ const HeaderComponent = () => {
         <img src={LogoListto}/>
         <nav>
             <a href="/">Home</a>
-            <a href="/informacoes">Features</a>
-            <a href="/registrar">Contacts</a>
-            <a href="/entrar">Login</a>
+            <a href="/features">Features</a>
+            <a href="/support">Support</a>
+            <a href="/login">Login</a>
         </nav>
     </ContainerHeader>
   )
