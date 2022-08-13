@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { ContainerHeader } from './HeaderStyle'
 import LogoListto from '../../assets/logo-listto.png'
 
@@ -7,10 +8,10 @@ const HeaderComponent = () => {
     <ContainerHeader>
         <img src={LogoListto}/>
         <nav>
-            <a href="/">Home</a>
-            <a href="/features">Features</a>
-            <a href="/support">Support</a>
-            <a href="/login">Login</a>
+            <Link to={"/"}>Home</Link>
+            <Link to={"/features"}>Features</Link>
+            <Link to={"/support"}>Support</Link>
+            <Link to={"/login"}>Login</Link>
         </nav>
     </ContainerHeader>
   )

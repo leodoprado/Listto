@@ -10,7 +10,6 @@ const HomePage = () => {
     <>
         <Header />
           <ContainerHomePage>
-            <div className="container-conteudo">
               <ContainerLeft>
                 <h1>Sistema para gestão de produtos</h1>
                 <br />
@@ -19,7 +18,6 @@ const HomePage = () => {
               <ContainerRight>
                 <img src={imghomepage}/>
               </ContainerRight>
-            </div>
           </ContainerHomePage>
         <Footer />
     </>

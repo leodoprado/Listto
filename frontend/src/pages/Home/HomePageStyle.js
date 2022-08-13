@@ -1,14 +1,11 @@
 import styled from "styled-components";
 
 export const ContainerHomePage = styled.div `
-    
-    .container-conteudo {
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Comfortaa', sans-serif;
-    }
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', sans-serif;
 `
 
 export const ContainerLeft = styled.div`
