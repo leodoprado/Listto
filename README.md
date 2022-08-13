@@ -3,14 +3,14 @@
 ### Projeto para `gestão` de produtos 📋
 
 **Tecnologias utilizadas no projeto:**
-  * HTML
-  * CSS
-  * Bootstrap
-  * MySQL
+  * React
   * Node.js
+  * MySQL
+  
 #
+
 **Home page:**
-![Captura Listto-inicio](https://user-images.githubusercontent.com/79430646/180789964-66e02e67-fe20-4dbf-83b6-15fb93d6915c.PNG)
+![home-page](https://user-images.githubusercontent.com/79430646/184496211-a3fe11bc-f2c9-422e-bd5e-180a09d0bc7d.png)
 
 #
 
