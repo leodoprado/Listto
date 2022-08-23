@@ -4,6 +4,7 @@ import HomePage from "../pages/Home/HomePage";
 import FeaturesPage from "../pages/Features/FeaturesPage";
 import SupportPage from "../pages/Support/SupportPage";
 import LoginPage from "../pages/Login/LoginPage";
+import HomePageAdmin from "../pages/Admin/HomePageAdmin";
 
 export default function Router() {
 
@@ -14,6 +15,7 @@ export default function Router() {
                 <Route exact path="/features" element={<FeaturesPage />}></Route>
                 <Route exact path="/support" element={<SupportPage />}></Route>
                 <Route exact path="/login" element={<LoginPage />}></Route>
+                <Route exact path="/admin" element={<HomePageAdmin />}></Route>
             </Routes>
         </BrowserRouter>
     );
