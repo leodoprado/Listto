@@ -27,7 +27,6 @@ export const ContainerHeaderAdmin = styled.div`
 
     a:hover {
         color: #DCDCDC;
-        box-shadow: 0 0 10px #46B241;
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }

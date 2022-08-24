@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoListto from '../../assets/logo-listto.png'
 import { FiSearch } from 'react-icons/fi'
+import { MdAdd } from 'react-icons/md'
 
 import { ContainerHeaderAdmin, ContainerInput, ContainerImage } from './HeaderAdminStyle'
 
@@ -18,7 +19,7 @@ const HeaderAdminComponent = () => {
             </button>
       </ContainerInput>
       <nav>
-        <a href="#">Add Category</a>
+        <a href="#"><MdAdd />Add Category</a>
       </nav>
     </ContainerHeaderAdmin>
   )
