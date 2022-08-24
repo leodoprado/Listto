@@ -10,8 +10,17 @@ const ContentAdmin = () => {
         <MainContentAdmin>
             <section>
                 <details>
-                    <summary>Conveniencia <a href="#">Add Item <MdAdd /></a></summary>
-                    <p>sla</p>
+                    <summary> Conveniência <a href="#">Add Item <MdAdd /></a></summary>
+                    <table>
+                      <tr>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                      </tr>
+                      <tr>
+                        <td>sla 1</td>
+                        <td>sla 2</td>
+                      </tr>
+                    </table>
                 </details>
             </section>
         </MainContentAdmin>

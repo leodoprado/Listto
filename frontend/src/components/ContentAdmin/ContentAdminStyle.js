@@ -5,31 +5,32 @@ export const ContainerContentAdmin = styled.div`
     justify-content: center;
     align-items: center;
     font-family: 'Figtree', sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
 `
 
 export const MainContentAdmin = styled.div`
-    width: 500px;
+    width: 600px;
     background: #fff;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 8px gray;
 
     summary::before {
         content: '+';
-        margin-right: -222px;
+        margin-right: -300px;
         animation: blink-animation 1s steps(5, start) infinite;
         -webkit-animation: blink-animation 1s steps(5, start) infinite;
     }
 
     details[open] summary:before {
         content: "-";
-        margin-right: -222px;
+        margin-right: -300px;
         animation: blink-animation 1s steps(5, start) infinite;
         -webkit-animation: blink-animation 1s steps(5, start) infinite;
     }
 
     details {
-        p {
+        table {
             margin-top: 20px;
         }
     }
@@ -41,6 +42,7 @@ export const MainContentAdmin = styled.div`
         color: #46B241;
         font-size: 20px;
         font-weight: 700;
+        cursor: pointer;
 
         a {
             color: #46B241;
