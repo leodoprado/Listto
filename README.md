@@ -17,11 +17,9 @@
 **Dependências do projeto:**
   * Express
   * Express-session
-  * Mysql2
+  * Nodemon
   * Sequelize
   * BcryptJS
-  * EJS
-  * Body-parser
   * Module-alias
   * Dotenv
   
