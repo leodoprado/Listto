@@ -8,15 +8,13 @@ import { ContainerHeaderAdmin, ContainerInput, ContainerImage } from './HeaderAd
 const HeaderAdminComponent = () => {
   return (
     <ContainerHeaderAdmin>
-        <img src={LogoListto}/>
+        <h1>Welcome to Listto</h1>
         <ContainerInput>
             <input 
                 type="text" 
-                placeholder="Search for product"
+                placeholder="Enter category name"
             />
-            <button>
-                <FiSearch size={25} color='white' />
-            </button>
+
       </ContainerInput>
       <nav>
         <a href="#"><MdAdd />Add Category</a>

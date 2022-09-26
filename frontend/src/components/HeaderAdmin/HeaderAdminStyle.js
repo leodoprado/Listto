@@ -30,13 +30,34 @@ export const ContainerHeaderAdmin = styled.div`
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
+
+    h1 {
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 30px;
+        animation: flipTitle 2s;
+
+        @keyframes flipTitle {
+            from {
+                transform: rotateX(90deg);
+            }
+            to {
+                transform: rotateX(0deg);
+            }
+        }
+    }
+    
 `
 
 export const ContainerInput = styled.div`
     background-color: rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin-top: 20px;
-    height: 18px;
+    height: 22px;
     display: flex;
     border-radius: 8px;
     box-shadow: 1px 3px 8px rgba(0,0,0, 0.5);
@@ -44,7 +65,8 @@ export const ContainerInput = styled.div`
     input {
         background-color: transparent;
         border: 0;
-        width: 300px;
+        width: 500px;
+        text-align: center;
         font-size: 20px;
         color: white;
         outline: none;
